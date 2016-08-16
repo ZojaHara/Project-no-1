@@ -1,0 +1,400 @@
+@-webkit-keyframes movement1 {
+  0% {
+    left: 0%;
+    top: 395px;
+    z-index: 10;
+  }
+  10% {
+    left: 10%;
+    top: 5px;
+    z-index: 20;
+  }
+  20% {
+    left: 20%;
+    top: 395px;
+    z-index: 10;
+  }
+  30% {
+    left: 30%;
+    top: 5px;
+    z-index: 20;
+  }
+  40% {
+    left: 40%;
+    top: 395px;
+    z-index: 10;
+  }
+  50% {
+    left: 50%;
+    top: 5px;
+    z-index: 20;
+  }
+  60% {
+    left: 60%;
+    top: 395px;
+    z-index: 10;
+  }
+  70% {
+    left: 70%;
+    top: 5px;
+    z-index: 20;
+  }
+  80% {
+    left: 80%;
+    top: 395px;
+    z-index: 10;
+  }
+  90% {
+    left: 90%;
+    top: 5px;
+    z-index: 20;
+  }
+  100% {
+    left: 100%;
+    top: 395px;
+    z-index: 10;
+  }
+}
+@keyframes movement1 {
+  0% {
+    left: 0%;
+    top: 395px;
+    z-index: 10;
+  }
+  10% {
+    left: 10%;
+    top: 5px;
+    z-index: 20;
+  }
+  20% {
+    left: 20%;
+    top: 395px;
+    z-index: 10;
+  }
+  30% {
+    left: 30%;
+    top: 5px;
+    z-index: 20;
+  }
+  40% {
+    left: 40%;
+    top: 395px;
+    z-index: 10;
+  }
+  50% {
+    left: 50%;
+    top: 5px;
+    z-index: 20;
+  }
+  60% {
+    left: 60%;
+    top: 395px;
+    z-index: 10;
+  }
+  70% {
+    left: 70%;
+    top: 5px;
+    z-index: 20;
+  }
+  80% {
+    left: 80%;
+    top: 395px;
+    z-index: 10;
+  }
+  90% {
+    left: 90%;
+    top: 5px;
+    z-index: 20;
+  }
+  100% {
+    left: 100%;
+    top: 395px;
+    z-index: 10;
+  }
+}
+@-webkit-keyframes movement2 {
+  0% {
+    left: 0%;
+    top: 5px;
+    z-index: 10;
+  }
+  10% {
+    left: 10%;
+    top: 395px;
+    z-index: 20;
+  }
+  20% {
+    left: 20%;
+    top: 5px;
+    z-index: 10;
+  }
+  30% {
+    left: 30%;
+    top: 395px;
+    z-index: 20;
+  }
+  40% {
+    left: 40%;
+    top: 5px;
+    z-index: 10;
+  }
+  50% {
+    left: 50%;
+    top: 395px;
+    z-index: 20;
+  }
+  60% {
+    left: 60%;
+    top: 5px;
+    z-index: 10;
+  }
+  70% {
+    left: 70%;
+    top: 395px;
+    z-index: 20;
+  }
+  80% {
+    left: 80%;
+    top: 5px;
+    z-index: 10;
+  }
+  90% {
+    left: 90%;
+    top: 395px;
+    z-index: 20;
+  }
+  100% {
+    left: 100%;
+    top: 5px;
+    z-index: 10;
+  }
+}
+@keyframes movement2 {
+  0% {
+    left: 0%;
+    top: 5px;
+    z-index: 10;
+  }
+  10% {
+    left: 10%;
+    top: 395px;
+    z-index: 20;
+  }
+  20% {
+    left: 20%;
+    top: 5px;
+    z-index: 10;
+  }
+  30% {
+    left: 30%;
+    top: 395px;
+    z-index: 20;
+  }
+  40% {
+    left: 40%;
+    top: 5px;
+    z-index: 10;
+  }
+  50% {
+    left: 50%;
+    top: 395px;
+    z-index: 20;
+  }
+  60% {
+    left: 60%;
+    top: 5px;
+    z-index: 10;
+  }
+  70% {
+    left: 70%;
+    top: 395px;
+    z-index: 20;
+  }
+  80% {
+    left: 80%;
+    top: 5px;
+    z-index: 10;
+  }
+  90% {
+    left: 90%;
+    top: 395px;
+    z-index: 20;
+  }
+  100% {
+    left: 100%;
+    top: 5px;
+    z-index: 10;
+  }
+}
+@-webkit-keyframes opac {
+  0% {
+    opacity: 1;
+    z-index: 10;
+  }
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+@keyframes opac {
+  0% {
+    opacity: 1;
+    z-index: 10;
+  }
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+body {
+  margin: 20px 0px;
+  font-family: 'Slabo 27px', serif;
+  background: #c5c5c5;
+}
+body header {
+  background: #c5c5c5;
+  width: 100%;
+  height: 60px;
+  padding:18px 0px;
+}
+body header h1 {
+  padding: 15px;
+  font-size: 1.8em;
+  float: left;
+}
+body header nav {
+  float: right;
+  margin: 15px 5px 5px 15px;
+}
+body header nav button {
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 1.2em;
+  font-family: 'Slabo 27px', serif;
+  border: none;
+}
+body header nav button:first-of-type {
+  background: #00a2f1;
+}
+body header nav button:last-of-type {
+  background: #a73700;
+}
+
+div {
+  clear: both;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: black;
+  overflow: hidden;
+}
+div p {
+  font-size: 1.8em;
+  color: #c5c5c5;
+  opacity: 1;
+  position: absolute;
+  top: 222px;
+  left: 42%;
+  -webkit-animation: opac 1s ease-in forwards;
+  animation: opac 2.2s ease-in forwards;
+}
+div div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: -50%;
+}
+div div:nth-of-type(1) {
+  background: #8bd9ff;
+}
+div div:nth-of-type(2) {
+  background: #ffb18b;
+}
+div div:nth-of-type(3) {
+  background: #c5c5c5;
+}
+div div:nth-of-type(4) {
+  background: #00a2f1;
+}
+div div:nth-of-type(5) {
+  background: #005d8b;
+}
+div div:nth-of-type(6) {
+  background: #742600;
+}
+div div:nth-of-type(7) {
+  background: #f1faff;
+}
+div div:nth-of-type(8) {
+  background: gray;
+}
+div div:nth-of-type(9) {
+  background: #beeaff;
+}
+div div:nth-of-type(10) {
+  background: #469bc5;
+}
+
+div div:nth-of-type(1) {
+  -webkit-animation: movement2 20s linear infinite;
+  animation: movement2 20s linear infinite;
+  animation-delay: 2.5s;
+}
+
+div div:nth-of-type(2) {
+  -webkit-animation: movement1 20s linear infinite;
+  animation: movement1 20s linear infinite;
+  animation-delay: 5s;
+}
+
+div div:nth-of-type(3) {
+  -webkit-animation: movement2 20s linear infinite;
+  animation: movement2 20s linear infinite;
+  animation-delay: 7.5s;
+}
+
+div div:nth-of-type(4) {
+  -webkit-animation: movement1 20s linear infinite;
+  animation: movement1 20s linear infinite;
+  animation-delay: 10s;
+}
+
+div div:nth-of-type(5) {
+  -webkit-animation: movement2 20s linear infinite;
+  animation: movement2 20s linear infinite;
+  animation-delay: 12.5s;
+}
+
+div div:nth-of-type(6) {
+  -webkit-animation: movement1 20s linear infinite;
+  animation: movement1 20s linear infinite;
+  animation-delay: 15s;
+}
+
+div div:nth-of-type(7) {
+  -webkit-animation: movement2 20s linear infinite;
+  animation: movement2 20s linear infinite;
+  animation-delay: 17.5s;
+}
+
+div div:nth-of-type(8) {
+  -webkit-animation: movement1 20s linear infinite;
+  animation: movement1 20s linear infinite;
+  animation-delay: 20s;
+}
+
+div div:nth-of-type(9) {
+  -webkit-animation: movement2 20s linear infinite;
+  animation: movement2 20s linear infinite;
+  animation-delay: 22.5s;
+}
+
+div div:nth-of-type(10) {
+  -webkit-animation: movement1 20s linear infinite;
+  animation: movement1 20s linear infinite;
+  animation-delay: 25s;
+}
+
+

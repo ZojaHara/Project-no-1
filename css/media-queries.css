@@ -1,0 +1,18 @@
+@media all and (max-width: 520px) {
+  body header h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  body header nav {
+    float: left;
+  }
+  body div {
+    height: 477px;
+  }
+  body div p {
+    font-size: 1.4em;
+  }
+  body div div {
+    width: 85px;
+    height: 85px;
+  }
+}
