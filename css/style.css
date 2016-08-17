@@ -247,6 +247,8 @@
   }
 }
 body {
+  width:100vw;
+  height:100vh;
   margin: 20px 0px;
   font-family: 'Slabo 27px', serif;
   background: #c5c5c5;
