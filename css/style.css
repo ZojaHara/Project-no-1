@@ -1,4 +1,4 @@
-@-webkit-keyframes movement1 {
+/*@-webkit-keyframes movement1 {
   0% {
     left: 0%;
     top: 395px;
@@ -225,7 +225,195 @@
     top: 5px;
     z-index: 10;
   }
+}*/
+
+/*TRANSLATE VERSION*/
+
+@-webkit-keyframes movement1 {
+  0% {
+    transform: translateX(0%) translateY(395px);
+    z-index: 10;
+  }
+  10% {
+    transform: translateX(300%) translateY(5px);
+    z-index: 20;
+  }
+  20% {
+    transform: translateX(600%) translateY(395px);
+    z-index: 10;
+  }
+  30% {
+    transform: translateX(900%) translateY(5px);
+    z-index: 20;
+  }
+  40% {
+    transform: translateX(1200%) translateY(395px);
+    z-index: 10;
+  }
+  50% {
+    transform: translateX(1500%) translateY(5px);
+    z-index: 20;
+  }
+  60% {
+    transform: translateX(1800%) translateY(395px);
+    z-index: 10;
+  }
+  70% {
+    transform: translateX(2100%) translateY(5px);
+    z-index: 20;
+  }
+  80% {
+    transform: translateX(2400%) translateY(395px);
+    z-index: 10;
+  }
+  90% {
+    transform: translateX(2700%) translateY(5px);
+    z-index: 20;
+  }
+  100% {
+    transform: translateX(3000%) translateY(395px);
+    z-index: 10;
+  }
 }
+@keyframes movement1 {
+  0% {
+    transform: translateX(0%) translateY(395px);
+    z-index: 10;
+  }
+  10% {
+    transform: translateX(300%) translateY(5px);
+    z-index: 20;
+  }
+  20% {
+    transform: translateX(600%) translateY(395px);
+    z-index: 10;
+  }
+  30% {
+    transform: translateX(900%) translateY(5px);
+    z-index: 20;
+  }
+  40% {
+    transform: translateX(1200%) translateY(395px);
+    z-index: 10;
+  }
+  50% {
+    transform: translateX(1500%) translateY(5px);
+    z-index: 20;
+  }
+  60% {
+    transform: translateX(1800%) translateY(395px);
+    z-index: 10;
+  }
+  70% {
+    transform: translateX(2100%) translateY(5px);
+    z-index: 20;
+  }
+  80% {
+    transform: translateX(2400%) translateY(395px);
+    z-index: 10;
+  }
+  90% {
+    transform: translateX(2700%) translateY(5px);
+    z-index: 20;
+  }
+  100% {
+    transform: translateX(3000%) translateY(395px);
+    z-index: 10;
+  }
+}
+@-webkit-keyframes movement2 {
+  0% {
+    transform: translateX(0%) translateY(5px);
+    z-index: 10;
+  }
+  10% {
+    transform: translateX(300%) translateY(395px);
+    z-index: 20;
+  }
+  20% {
+    transform: translateX(600%) translateY(5px);
+    z-index: 10;
+  }
+  30% {
+    transform: translateX(900%) translateY(395px);
+    z-index: 20;
+  }
+  40% {
+    transform: translateX(1200%) translateY(5px);
+    z-index: 10;
+  }
+  50% {
+    transform: translateX(1500%) translateY(395px);
+    z-index: 20;
+  }
+  60% {
+    transform: translateX(1800%) translateY(5px);
+    z-index: 10;
+  }
+  70% {
+    transform: translateX(2100%) translateY(395px);
+    z-index: 20;
+  }
+  80% {
+    transform: translateX(2400%) translateY(5px);
+    z-index: 10;
+  }
+  90% {
+    transform: translateX(2700%) translateY(395px);
+    z-index: 20;
+  }
+  100% {
+    transform: translateX(3000%) translateY(5px);
+    z-index: 10;
+  }
+}
+@keyframes movement2 {
+  0% {
+    transform: translateX(0%) translateY(5px);
+    z-index: 10;
+  }
+  10% {
+    transform: translateX(300%) translateY(395px);
+    z-index: 20;
+  }
+  20% {
+    transform: translateX(600%) translateY(5px);
+    z-index: 10;
+  }
+  30% {
+    transform: translateX(900%) translateY(395px);
+    z-index: 20;
+  }
+  40% {
+    transform: translateX(1200%) translateY(5px);
+    z-index: 10;
+  }
+  50% {
+    transform: translateX(1500%) translateY(395px);
+    z-index: 20;
+  }
+  60% {
+    transform: translateX(1800%) translateY(5px);
+    z-index: 10;
+  }
+  70% {
+    transform: translateX(2100%) translateY(395px);
+    z-index: 20;
+  }
+  80% {
+    transform: translateX(2400%) translateY(5px);
+    z-index: 10;
+  }
+  90% {
+    transform: translateX(2700%) translateY(395px);
+    z-index: 20;
+  }
+  100% {
+    transform: translateX(3000%) translateY(5px);
+    z-index: 10;
+  }
+}
+
 @-webkit-keyframes opac {
   0% {
     opacity: 1;
@@ -304,7 +492,7 @@ div div {
   border-radius: 50%;
   position: absolute;
   top: 5px;
-  left: -50%;
+  left: -100px;
 }
 div div:nth-of-type(1) {
   background: #8bd9ff;
@@ -396,5 +584,3 @@ div div:nth-of-type(10) {
   animation: movement1 20s linear infinite;
   animation-delay: 25s;
 }
-
-
